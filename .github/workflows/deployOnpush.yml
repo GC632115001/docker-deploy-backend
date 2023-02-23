@@ -43,7 +43,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/234-deploylab-backend:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/234-deploylab-backend
     -
       name: prepare the docker-compose run
       run: |
